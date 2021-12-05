@@ -16,7 +16,7 @@ namespace Arrays
                 Console.Write($"\nEnter value number {j}: ");
                 myArray[j] = int.Parse(Console.ReadLine());
             }
-            Console.WriteLine("Result: ");
+            Console.WriteLine("\nResult: ");
             for (int i = 0; i < myArray.Length; i++)
             {                
                     Console.WriteLine(myArray[i]);
