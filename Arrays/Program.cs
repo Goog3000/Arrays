@@ -6,26 +6,20 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int[] myArray = new int[5];
+            Console.Write("How mych elements are in array: ");
+            int arrayQuantity = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter first value: ");
-            myArray[0] = int.Parse(Console.ReadLine());
+            int[] myArray = new int[arrayQuantity];
 
-            Console.Write("Enter second value: ");
-            myArray[1] = int.Parse(Console.ReadLine());
-
-            Console.Write("Enter third value: ");
-            myArray[2] = int.Parse(Console.ReadLine());
-
-            Console.Write("Enter fourth value: ");
-            myArray[3] = int.Parse(Console.ReadLine());
-
-            Console.Write("Enter fifth value: ");
-            myArray[4] = int.Parse(Console.ReadLine());
-
-            for(int i = 0; i< myArray.Length; i++)
+            for (int j = 0; j < myArray.Length; j++)
             {
-                Console.WriteLine(myArray[i]);
+                Console.Write($"\nEnter value number {j}: ");
+                myArray[j] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("Result: ");
+            for (int i = 0; i < myArray.Length; i++)
+            {                
+                    Console.WriteLine(myArray[i]);
             }
         }
     }
