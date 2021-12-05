@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inContrastArray", "inContrastArray\inContrastArray.csproj", "{449657D9-4C06-476D-91B1-23BB21F7A1DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "evenSum", "evenSum\evenSum.csproj", "{D3BD9063-BECF-4396-8DD0-C75401B5290C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{449657D9-4C06-476D-91B1-23BB21F7A1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{449657D9-4C06-476D-91B1-23BB21F7A1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{449657D9-4C06-476D-91B1-23BB21F7A1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3BD9063-BECF-4396-8DD0-C75401B5290C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3BD9063-BECF-4396-8DD0-C75401B5290C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3BD9063-BECF-4396-8DD0-C75401B5290C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3BD9063-BECF-4396-8DD0-C75401B5290C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
