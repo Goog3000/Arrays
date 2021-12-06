@@ -17,14 +17,14 @@ namespace evenSum
                 Console.Write($"\nEnter value number {i}: ");
                 myArray[i] = int.Parse(Console.ReadLine());
 
-                
-                if(myArray[i] % 2 == 0)
+
+                if (myArray[i] % 2 == 0)
                 {
                     sum += myArray[i];
                 }
-                
+
             }
-            Console.WriteLine("\nSum of even numbers: "+ sum);
+            Console.WriteLine("\nSum of even numbers: " + sum);
 
         }
     }
