@@ -26,6 +26,7 @@ namespace evenSum
             }
             Console.WriteLine("\nSum of even numbers: " + sum);
 
+            //Console.WriteLine(myArray.Where(i => i % 2 == 0).Sum());
         }
     }
 }
