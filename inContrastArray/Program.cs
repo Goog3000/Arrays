@@ -17,7 +17,7 @@ namespace inContrastArray
                 myArray[i] = int.Parse(Console.ReadLine());
             }
             Console.WriteLine("\nResult: ");
-            for (int i = myArray.Length -1; i >= 0; i--)
+            for (int i = myArray.Length - 1; i >= 0; i--)
             {
                 Console.WriteLine(myArray[i]);
             }
